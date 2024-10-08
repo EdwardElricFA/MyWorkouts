@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A6716AC2CB51F0000F1AF5F /* StartTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6716AB2CB51F0000F1AF5F /* StartTabView.swift */; };
+		6A6716AF2CB5216A00F1AF5F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6716AE2CB5216A00F1AF5F /* CalendarView.swift */; };
+		6A6716B32CB5222900F1AF5F /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6716B22CB5222900F1AF5F /* CalendarHeaderView.swift */; };
 		BB43F9AE2B5B0AA400572F74 /* ActivitySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43F9AD2B5B0AA400572F74 /* ActivitySymbol.swift */; };
 		BB43F9B02B5B0AB600572F74 /* ActivityIconSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43F9AF2B5B0AB600572F74 /* ActivityIconSelectionView.swift */; };
 		BB43F9B22B5B24E200572F74 /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43F9B12B5B24E200572F74 /* WorkoutsListView.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A6716AB2CB51F0000F1AF5F /* StartTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabView.swift; sourceTree = "<group>"; };
+		6A6716AE2CB5216A00F1AF5F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		6A6716B22CB5222900F1AF5F /* CalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
 		BB43F9AD2B5B0AA400572F74 /* ActivitySymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySymbol.swift; sourceTree = "<group>"; };
 		BB43F9AF2B5B0AB600572F74 /* ActivityIconSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIconSelectionView.swift; sourceTree = "<group>"; };
 		BB43F9B12B5B24E200572F74 /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A6716AD2CB5212500F1AF5F /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6A6716AE2CB5216A00F1AF5F /* CalendarView.swift */,
+				6A6716B22CB5222900F1AF5F /* CalendarHeaderView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		BB43F9B52B5B40A000572F74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				BBD55D132B5A18F600440A69 /* MyWorkoutsApp.swift */,
+				6A6716AB2CB51F0000F1AF5F /* StartTabView.swift */,
 				BB43F9B82B5B482900572F74 /* Acivity Views */,
+				6A6716AD2CB5212500F1AF5F /* Calendar */,
 				BB43F9BD2B5B524400572F74 /* WWorkout Views */,
 				BBD55D252B5A1B0300440A69 /* Models */,
 				BB43F9B62B5B46D900572F74 /* ModalType.swift */,
@@ -210,13 +227,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7E64582B5B845000862170 /* WorkoutFormView.swift in Sources */,
+				6A6716B32CB5222900F1AF5F /* CalendarHeaderView.swift in Sources */,
 				BB43F9B22B5B24E200572F74 /* WorkoutsListView.swift in Sources */,
+				6A6716AF2CB5216A00F1AF5F /* CalendarView.swift in Sources */,
 				BB43F9AE2B5B0AA400572F74 /* ActivitySymbol.swift in Sources */,
 				BBD55D272B5A1E3800440A69 /* Date+Extension.swift in Sources */,
 				BB7E64562B5B829700862170 /* WorkoutFormModel.swift in Sources */,
 				BBD55D162B5A18F600440A69 /* ActivityListView.swift in Sources */,
 				BB43F9B02B5B0AB600572F74 /* ActivityIconSelectionView.swift in Sources */,
 				BB43F9B42B5B409C00572F74 /* Color+Extension.swift in Sources */,
+				6A6716AC2CB51F0000F1AF5F /* StartTabView.swift in Sources */,
 				BBD55D2F2B5A4BD000440A69 /* ActivityFormView.swift in Sources */,
 				BBD55D222B5A195200440A69 /* Activity.swift in Sources */,
 				BB43F9BA2B5B486900572F74 /* ActivityFormModel.swift in Sources */,

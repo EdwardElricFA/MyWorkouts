@@ -15,7 +15,7 @@ import SwiftData
 struct MyWorkoutsApp: App {
     var body: some Scene {
         WindowGroup {
-            ActivityListView()
+            StartTabView()
                 .modelContainer(for: Activity.self)
         }
     }
